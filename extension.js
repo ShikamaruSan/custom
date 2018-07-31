@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "zEjoxx";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -19,7 +19,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['spam1', 'spam2', 'spam3', 'spam4'];
+        var spamWords = ['nigger', 'faggot'];
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'basicBot',
+        botName: 'Bot',
         language: 'english',
         chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
@@ -70,10 +70,10 @@
         maximumCycletime: 10,
         voteSkip: false,
         voteSkipLimit: 10,
-        historySkip: false,
+        historySkip: true,
         timeGuard: true,
         strictTimeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 6,
         autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -82,18 +82,18 @@
         skipPosition: 3,
         skipReasons: [
             ['theme', 'This song does not fit the room theme. '],
-            ['op', 'This song is on the OP list. '],
-            ['history', 'This song is in the history. '],
+            ['op', 'This song is on the overplayed list. '],
+            ['history', 'This song is in the history. Choose a different song. '],
             ['mix', 'You played a mix, which is against the rules. '],
             ['sound', 'The song you played had bad sound quality or no sound. '],
             ['nsfw', 'The song you contained was NSFW (image or sound). '],
-            ['unavailable', 'The song you played was not available for some users. ']
+            ['unavailable', 'The song you played was unavailable for some users. ']
         ],
         afkpositionCheck: 15,
-        afkRankCheck: 'ambassador',
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: 'Temporary Message of the Day',
+        afkRankCheck: 'bouncer',
+        motdEnabled: true,
+        motdInterval: 10,
+        motd: 'If you´re new here, take a moment to read the room rules to avoid getting banned.',
         filterChat: true,
         etaRestriction: false,
         welcome: true,
