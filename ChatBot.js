@@ -86,7 +86,7 @@
             ['history', 'This song is in the history. Choose a different song. '],
             ['mix', 'You played a mix, which is against the rules. '],
             ['sound', 'The song you played had bad sound quality or no sound. '],
-            ['nsfw', 'The song you contained was NSFW (image or sound). '],
+            ['nsfw', 'The song you contained was NSFW (offensive or explicit. Image or sound). '],
             ['unavailable', 'The song you played was unavailable for some users. ']
         ],
         afkpositionCheck: 15,
@@ -105,7 +105,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: '!',
         blacklists: {
             NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
