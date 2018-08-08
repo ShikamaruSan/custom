@@ -19,7 +19,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['nigger', 'faggot'];
+        var spamWords = ['nigger', 'faggot','niggers','faggots','fags','nigga'];
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: 'Bot',
         language: 'english',
-        chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/en.json',
+        chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/english.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 1, // 1-200
@@ -59,7 +59,7 @@
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
@@ -82,17 +82,17 @@
         skipPosition: 3,
         skipReasons: [
             ['theme', 'This song does not fit the room theme. '],
-            ['op', 'This song is on the overplayed list. '],
+            ['op', 'This song is overplayed. '],
             ['history', 'This song is in the history. Choose a different song. '],
-            ['mix', 'You played a mix, which is against the rules. '],
-            ['sound', 'The song you played had bad sound quality or no sound. '],
+            ['outro', 'You played an outro song, which is against the rules. '],
+            ['quality', 'The song you played had bad sound quality or no sound. '],
             ['nsfw', 'The song you contained was NSFW (offensive or explicit. Image or sound). '],
             ['unavailable', 'The song you played was unavailable for some users. ']
         ],
         afkpositionCheck: 15,
-        afkRankCheck: 'bouncer',
+        afkRankCheck: 'rdj',
         motdEnabled: true,
-        motdInterval: 10,
+        motdInterval: 15,
         motd: 'If you´re new here, take a moment to read the room rules to avoid getting banned.',
         filterChat: true,
         etaRestriction: false,
@@ -101,8 +101,8 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: null,
-        website: null,
+        youtubeLink: "https://www.youtube.com/channel/UCmDTrq0LNgPodDOFZiSbsww",
+        website: "https://www.twitch.tv/xqcow",
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
@@ -110,7 +110,7 @@
         blacklists: {
             NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
             OP: 'https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json',
-            BANNED: 'https://rawgit.com/zEjoxx/custom/master/blacklists/BANNlist.json'
+            BANNED: 'https://rawgit.com/zEjoxx/custom/master/blacklists/BannedSongList.json'
         }
     }));
 
