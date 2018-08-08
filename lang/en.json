@@ -88,7 +88,7 @@
     "afkremove": "\/me @%%NAME%%, you have been removed for being afk for %%TIME%%. You were at position %%POSITION%%. Chat at least once every %%MAXIMUMAFK%% minutes if you want to play a song.",
     "caps": "\/me @%%NAME%%, unglue your capslock button please.",
     "askskip": "\/me @%%NAME%%, don't ask for skips.",
-    "spam": "\/me @%%NAME%%, please don't use offensive words. If you continue this behavior, you will be banned.",
+    "spam": "\/me @%%NAME%%, please don't use offensive slurs.",
     "roomadvertising": "\/me @%%NAME%%, don't post links to other rooms please.",
     "adfly": "\/me @%%NAME%%, please change your autowoot program unless you're using RCS: https://rcs.radiant.dj/",
     "validgiftags": "\/me [@%%NAME%%] [Tags: %%TAGS%%] http:\/\/i.giphy.com\/%%ID%%.gif",
