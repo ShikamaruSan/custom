@@ -93,7 +93,7 @@
         afkRankCheck: 'rdj',
         motdEnabled: true,
         motdInterval: 15,
-        motd: 'If you´re new here, take a moment to read the room rules to avoid getting banned.',
+        motd: 'If you´re new here, please take a moment to read the community rules to avoid getting banned.',
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -101,8 +101,8 @@
         rulesLink: null,
         themeLink: null,
         fbLink: null,
-        youtubeLink: "https://www.youtube.com/channel/UCmDTrq0LNgPodDOFZiSbsww",
-        website: "https://www.twitch.tv/xqcow",
+        youtubeLink: 'https://www.youtube.com/channel/UCmDTrq0LNgPodDOFZiSbsww',
+        website: 'https://www.twitch.tv/xqcow',
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
@@ -110,7 +110,8 @@
         blacklists: {
             NSFW: 'https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json',
             OP: 'https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json',
-            BANNED: 'https://rawgit.com/zEjoxx/custom/master/blacklists/BannedSongList.json'
+            BANNED: 'https://rawgit.com/zEjoxx/custom/master/blacklists/BannedSongList.json',
+            OUTRO: 'https://rawgit.com/zEjoxx/custom/master/blacklists/OutroSongs.json'
         }
     }));
 
