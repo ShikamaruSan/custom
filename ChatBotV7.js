@@ -51,8 +51,8 @@
         chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/english.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 200, // 1-200
+        startupVolume: 4, // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
         autoskip: false,
