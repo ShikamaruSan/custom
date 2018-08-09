@@ -96,7 +96,7 @@
         motd: 'If you´re new here, please take a moment to read the community rules to avoid getting banned.',
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
         rulesLink: null,
         themeLink: null,
