@@ -46,14 +46,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: 'Bot',
+        botName: 'GO AGANE bot',
         language: 'english',
         chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/english.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 200, // 1-200
         startupVolume: 4, // 0-100
-        startupEmoji: false, // true or false
+        startupEmoji: true, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
