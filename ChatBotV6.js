@@ -91,7 +91,7 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: 'rdj',
-        motdEnabled: true,
+        motdEnabled: false,
         motdInterval: 15,
         motd: 'If you´re new here, please take a moment to read the community rules to avoid getting banned.',
         filterChat: true,
