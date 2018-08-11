@@ -49,7 +49,7 @@
         botName: 'GO AGANE bot',
         language: 'english',
         chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/english.json',
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        scriptLink: 'https://rawgit.com/zEjoxx/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 200, // 1-200
         startupVolume: 4, // 0-100
