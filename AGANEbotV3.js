@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: 'GO AGANE bot',
         language: 'english',
-        chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/english.json',
+        chatLink: 'https://rawgit.com/zEjoxx/custom/master/lang/eng.json',
         scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 200, // 1-200
