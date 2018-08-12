@@ -79,7 +79,7 @@
         usercommandsEnabled: false,
         thorCommand: false,
         thorCooldown: 10,
-        skipPosition: 3,
+        skipPosition: null,
         skipReasons: [
             ['theme', 'This song does not fit the room theme. '],
             ['op', 'This song is overplayed. '],
