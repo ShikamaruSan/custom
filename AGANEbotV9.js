@@ -19,7 +19,7 @@
         //Extend the bot here, either by calling another function or here directly.
 
         // You can add more spam words to the bot.
-        var spamWords = ['nigger', 'faggot','niggers','faggots','fags','nigga'];
+        var spamWords = [''];
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
@@ -95,7 +95,7 @@
         motdEnabled: false,
         motdInterval: 15,
         motd: 'If you´re new here, please take a moment to read the community rules to avoid getting banned.',
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: false,
         opLink: null,
